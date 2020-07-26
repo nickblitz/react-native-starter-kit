@@ -5,8 +5,8 @@ import { FlatList, TouchableOpacity, Image } from 'react-native';
 import {
   Container, Card, CardItem, Body, Text, Button,
 } from 'native-base';
-import { Error, Spacer } from '../UI';
-import { errorMessages } from '../../constants/messages';
+import { Error, Spacer } from 'src/components/base/UI';
+import { errorMessages } from 'src/constants/messages';
 
 const ArticlesList = ({
   error, loading, listFlat, reFetch, meta,

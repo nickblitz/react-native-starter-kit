@@ -1,7 +1,7 @@
 <div align="center">
   <img src="documentation/rnsk-logo.jpg" alt="React Native Starter Kit" width="400" />
   <p></p>
-  <h1>React Native App</h1>
+  <h1>React Native App + Auth0</h1>
   <p></p>
   <sup>
     <a href="https://github.com/mcnamee/react-native-starter-kit/actions">
@@ -40,6 +40,7 @@ This project was bootstrapped with the [React Boilerplate Builder](https://githu
 
 The project is _super_ helpful to kick-start your next project, as it provides a lot of the common tools you may reach for, all ready to go. Specifically:
 
+- __Auth0 Authentication__
 - __Flux architecture__
     - [Redux](https://redux.js.org/docs/introduction/)
     - Redux Wrapper: [Rematch](https://github.com/rematch/rematch)

@@ -4,8 +4,8 @@ import { Image } from 'react-native';
 import {
   Container, Content, Card, CardItem, Body, H3, Text,
 } from 'native-base';
-import { Loading, Error, Spacer } from '../UI';
-import { errorMessages } from '../../constants/messages';
+import { Loading, Error, Spacer } from 'src/components/base/UI';
+import { errorMessages } from 'src/constants/messages';
 
 const ArticlesSingle = ({
   error, loading, article, reFetch,

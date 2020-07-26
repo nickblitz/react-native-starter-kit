@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { render } from '@testing-library/react-native';
-import ArticlesList from '../../../components/Articles/List';
+import ArticlesList from '../../../components/app/Articles/List';
 import { errorMessages } from '../../../constants/messages';
 
 it('<ArticlesList /> shows a nice error message', () => {

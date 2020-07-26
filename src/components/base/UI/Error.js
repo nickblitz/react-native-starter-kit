@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {
   Container, Text, H3, Button, View,
 } from 'native-base';
-import Spacer from './Spacer';
+import Spacer from 'src/components/base/UI/Spacer';
 
 const Error = ({ title, content, tryAgain }) => (
   <Container style={{ flex: 1 }}>

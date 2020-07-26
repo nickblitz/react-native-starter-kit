@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Spacer from '../../../components/UI/Spacer';
+import Spacer from '../../../components/base/UI/Spacer';
 
 it('<Spacer /> renders with correctly with size: 10', () => {
   const Component = <Spacer size={10} />;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import Layout from '../../components/Articles/Form';
+import Layout from '../../components/app/Articles/Form';
 
 class ArticlesFormContainer extends Component {
   constructor() {

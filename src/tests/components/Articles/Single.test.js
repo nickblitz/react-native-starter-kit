@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { render } from '@testing-library/react-native';
-import ArticlesSingle from '../../../components/Articles/Single';
+import ArticlesSingle from '../../../components/app/Articles/Single';
 import { errorMessages } from '../../../constants/messages';
 
 it('<ArticlesSingle /> shows a nice error message', () => {

@@ -220,7 +220,7 @@ export default {
   },
 
   // Icon
-  iconFamily: 'Ionicons',
+  iconFamily: 'MaterialIcons',
   iconFontSize: platform === PLATFORM.IOS ? 30 : 28,
   iconHeaderSize: platform === PLATFORM.IOS ? 33 : 24,
 

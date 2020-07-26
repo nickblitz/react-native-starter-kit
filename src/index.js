@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
-import { Router, Stack } from 'react-native-router-flux';
 import { PersistGate } from 'redux-persist/es/integration/react';
 import SplashScreen from 'react-native-splash-screen';
 
@@ -9,8 +8,9 @@ import { Root, StyleProvider } from 'native-base';
 import getTheme from '../native-base-theme/components';
 import theme from '../native-base-theme/variables/commonColor';
 
-import Routes from './routes/index';
-import Loading from './components/UI/Loading';
+import CustomRouter from './routes/index';
+import Loading from './components/base/UI/Loading';
+import Auth from './components/base/Auth';
 
 class App extends React.Component {
   constructor() {
@@ -36,9 +36,9 @@ class App extends React.Component {
         <Provider store={store}>
           <PersistGate loading={<Loading />} persistor={persistor}>
             <StyleProvider style={getTheme(theme)}>
-              <Router>
-                <Stack key="root">{Routes}</Stack>
-              </Router>
+              <Auth>
+                <CustomRouter />
+              </Auth>
             </StyleProvider>
           </PersistGate>
         </Provider>
