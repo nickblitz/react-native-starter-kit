@@ -1,8 +1,8 @@
 import React from 'react';
 import {
-  Container, Content, Text, H1, H2, H3, Button,
+  Container, Content, Text, H1, H2, H3,
 } from 'native-base';
-import Spacer from 'src/components/base/UI/Spacer';
+import Spacer from '../base/UI/Spacer';
 
 const About = () => (
   <Container>

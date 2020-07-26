@@ -11,8 +11,8 @@ import {
   Input,
   Button,
 } from 'native-base';
-import { Messages, Header, Spacer } from 'src/components/base/UI';
-import { errorMessages } from 'src/constants/messages';
+import { Messages, Header, Spacer } from '../../base/UI';
+import { errorMessages } from '../../../constants/messages';
 
 const ArticlesForm = ({
   error, loading, success, onFormSubmit, defaultValues,

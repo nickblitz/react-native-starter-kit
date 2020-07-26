@@ -3,8 +3,8 @@ import Auth0 from 'react-native-auth0';
 import PropTypes from 'prop-types';
 import { Actions } from 'react-native-router-flux';
 
-import AUTH_CONFIG from 'src/constants/auth0Config';
-import { AuthProvider } from 'src/components/base/Auth/AuthContext';
+import AUTH_CONFIG from '../../../constants/auth0Config';
+import { AuthProvider } from './AuthContext';
 
 const auth = new Auth0({
   domain: AUTH_CONFIG.domain,
@@ -43,7 +43,6 @@ class Auth extends Component {
   };
 
   setSession(data) {
-    console.log(data);
     const user = {
       id: data.idToken,
     };

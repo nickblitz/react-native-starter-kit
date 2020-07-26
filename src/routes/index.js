@@ -6,10 +6,10 @@ import DefaultProps from '../constants/navigation';
 
 import { ArticlesForm, ArticlesList, ArticlesSingle } from '../containers';
 
-import AboutComponent from 'src/components/app/About';
-import LoginComponent from 'src/components/app/Login';
+import AboutComponent from '../components/app/About';
+import LoginComponent from '../components/app/Login';
 import { AuthConsumer } from '../components/base/Auth/AuthContext';
-import withContextConsumer from 'src/components/base/withContextConsumer';
+import withContextConsumer from '../components/base/withContextConsumer';
 
 const CustomRouter = ({ authenticated }) => (
   <Router>

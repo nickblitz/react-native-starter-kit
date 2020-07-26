@@ -3,7 +3,7 @@ import {
   Container, Content, Text, Button,
 } from 'native-base';
 import { StyleSheet, View } from 'react-native';
-import { AuthConsumer } from 'src/components/base/Auth/AuthContext';
+import { AuthConsumer } from '../base/Auth/AuthContext';
 
 const styles = StyleSheet.create({
   buttonTitle: {
